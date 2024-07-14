@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+SK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url(./style.css);
+
+/* .Heading .fs-4{
+    
+    font-family: "Playwrite SK", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.fs-4 {
+  font-family: "Playwrite SK", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 0, 93);
+}
+span{
+    font-size: 25px;
+    font-weight: 450;
+    color:rgb(122, 145, 188);
+}
+.nav-link{
+    color: rgb(251, 144, 171);
+}
+.About .aboutcontainer{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.social-media-links{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.github{
+    display: inline-block;
+}
+#github{
+    width: 45px;
+}
+.linkedin{
+    display: inline-block;
+}
+#linkedin{
+    width: 40px;
+    border-radius: 100%;
+}
+.gmail{
+    display: inline-block;
+    margin-left: 6px;
+}
+#gmail{
+    height: 37px;
+    width: 37px;
+    border-radius: 100%;
+}
+.facebook{
+    display: inline-block;
+    margin-left: 6px;
+}
+#facebook{
+    width: 42px;
+    border-radius: 100%;
+}
+.instagram{
+    display: inline-block;
+    margin-left: 6px;
+}
+#instagram{
+    width: 41px;
+    border-radius: 100%;
+}
+.twitter{
+    display: inline-block;
+    margin-left: 6px;
+}
+#twitter{
+    width: 41px;
+    border-radius: 100%;
+}
+.btn-primary{
+    border-color: rgb(201, 13, 51);
+    background-color: rgb(255, 0, 93);
+}
+.btn-outline-primary{
+    border-color: rgb(201, 13, 51);
+    color: rgb(255, 0, 93);
+}
+
+.Skills .what-i-do{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.logos{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#html{
+    display: inline-block;
+}
+.html{
+    width: 30px;
+}
+#css{
+    display: inline-block;
+}
+.css{
+    width: 38px;
+}
+#js{
+    display: inline-block;
+}
+.js{
+    width: 27px;
+}
+#php{
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 4px;
+}
+.php{
+    width: 40px;
+}
+#scss{
+    display: inline-block;
+    margin-right: 5px;
+}
+.scss{
+    width: 45px;
+}
+#c{
+    display: inline-block;
+    margin-right: 5px;
+}
+.c{
+    width: 30px;
+}
+#cpp{
+    display: inline-block;
+    margin-right: 5px;
+}
+.cpp{
+    width: 30px;
+}
+#python{
+    display: inline-block;
+}
+.python{
+    width: 35px;
+}
+
+.Skills .proficiency{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.div-1{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.div-2{
+    padding-bottom: 25px;
+}
+.div-3{
+    padding-bottom: 25px;
+}
+.progress-bar{
+    background-color: rgb(255, 0, 93);
+}
+
+.Projects .open-source-projects{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+}
+.cont{
+    margin: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#projects{
+    padding: 0;
+    margin: 0;
+}
+
+.Projects .grid-container{
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(2,10rem);
+    grid-template-columns: repeat(3,30rem);
+    place-items: center;
+    place-self: center;
+    gap: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+.grid-items{
+    box-sizing: border-box;
+    box-shadow: inset;
+    border-radius: 10px;
+}
+.card_img{
+    height: 10rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Contact .contact-me{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#contact-h2{
+    padding-bottom: 10px;
+}
+.last-lead{
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(144, 142, 142);
+}
+.last-lead1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.4em;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+.last-lead2{
+    font-weight: 500;
+    color:rgb(141, 140, 139);
+    padding-top: 0;
+}
+.img-cont-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-pic{
+    border: 10px solid rgb(255, 0, 93);
+    border-radius: 100%;
+}
+.container{
+    margin-top: 0;
+}
+@media (max-width: 767px){
+    .ab-cont-div{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-cont-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-cont-div1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .Projects .grid-container{
+        display: grid;
+        width: 100%;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,2fr);
+        place-items: center;
+        place-self: center;
+        gap: 10px;
+        margin-top: 30px;
+        position: relative;
+    }
+    .grid-items{
+        height: 100%;
+        width: 100%;
+    }
+    .card_img{
+        height: auto;
+    }
+}
+@media (max-width: 1000px){
+    .Projects .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+        gap: 10px;
+        margin-top: 30px;
+        position: relative;
+    }
+}
