@@ -276,7 +276,7 @@ span{
 .container{
     margin-top: 0;
 }
-@media (max-width: 767px){
+@media (max-width: 1000px){
     .ab-cont-div{
         display: flexbox;
         justify-content: center;
