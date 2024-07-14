@@ -330,7 +330,7 @@ span{
     }
 }
 
-@media (max-width: 1500px){
+@media (max-width: 2400px){
     .ab-cont-div{
         display: flexbox;
         justify-content: center;
